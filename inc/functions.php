@@ -1082,7 +1082,7 @@ function brisk_script_manager_admin_bar($wp_admin_bar) {
 		$href = add_query_arg(str_replace(array('&brisk', 'brisk'), '', $_SERVER['QUERY_STRING']), '', home_url($wp->request));
 
 		if(!isset($_GET['brisk'])) {
-			$href.= !empty($_SERVER['QUERY_STRING']) ? '&brisk' : '?brisk';
+			$href.=  !empty($_SERVER['QUERY_STRING']) ? '&brisk' : '?brisk';
 			$menu_text = __('Brisk', 'brisk');
 		}
 		else {

@@ -7,7 +7,7 @@ html, body {
 #brisk-script-manager-wrapper {
 	display: none;
 	position: fixed;
-	z-index: 99999999;
+	z-index: 999;
 	top: 32px;
 	bottom: 0px;
 	left: 0px;
@@ -494,7 +494,7 @@ html, body {
 }
 @media (max-width: 800px) {
 	#brisk-script-manager {
-		padding-left: 20px;
+		padding-left: 0px;
 	}
 	#brisk-script-manager-header {
 		position: relative;
