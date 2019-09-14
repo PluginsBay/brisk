@@ -3,9 +3,9 @@
 Plugin Name: Brisk
 Plugin URI: https://pluginsbay.com/
 Description: Increase website page speed by removing the unnecessary CSS and JS from WordPress Themes and Plugins on a per-page basis.
-Version: 1.4.1
-Author: StefanPejcic
-Author URI: https://giga.rs/
+Version: 1.5
+Author: pluginsBay
+Author URI: https://pluginsbay.com/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: brisk
