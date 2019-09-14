@@ -17,7 +17,7 @@ $currentID = brisk_get_current_ID();
 if(isset($_POST['brisk_script_manager_settings'])) {
 
 	//validate
-	if(!isset($_POST['brisk_script_manager_settings_nonce']) || !wp_verify_nonce($_POST['brisk_script_manager_settings_nonce'], 'perfmatter_script_manager_save_settings')) {
+	if(!isset($_POST['brisk_script_manager_settings_nonce']) || !wp_verify_nonce($_POST['brisk_script_manager_settings_nonce'], 'briskmatter_script_manager_save_settings')) {
 		print 'Sorry, your nonce did not verify.';
 	    exit;
 	} else {
@@ -201,11 +201,11 @@ echo "<div id='brisk-script-manager-wrapper' " . (isset($_GET['brisk']) ? "style
 																						$valueString.= '404, ';
 																					}
 																					else {
-																						$valueString.= "<a href='" . get_page_link($value) . "' target='_blank'>" . $value . "</a>, ";
+																						$valueString.= "<a href='" . htmlspecialchars(get_page_link($value), ENT_COMPAT, 'utf-8') . "' target='_blank'>" . $value . "</a>, ";
 																					}
 																				}
 																				else {
-																					$valueString.= "<a href='" . get_home_url() . "' target='_blank'>homepage</a>, ";
+																					$valueString.= "<a href='" . htmlspecialchars(get_home_url(), ENT_COMPAT, 'utf-8') . "' target='_blank'>homepage</a>, ";
 																				}
 																			}
 																			elseif($detail == "post_types") {
@@ -304,7 +304,7 @@ echo "<div id='brisk-script-manager-wrapper' " . (isset($_GET['brisk']) ? "style
 						echo "</table>";
 
 						//nonce
-						wp_nonce_field('perfmatter_script_manager_save_settings', 'brisk_script_manager_settings_nonce');
+						wp_nonce_field('briskmatter_script_manager_save_settings', 'brisk_script_manager_settings_nonce');
 
 						echo "<div class='brisk-script-manager-toolbar'>";
 
