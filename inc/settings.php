@@ -873,7 +873,7 @@ function brisk_network_defaults(&$defaults, $option) {
 
 //main options group callback
 function brisk_options_callback() {
-	echo '<p class="brisk-subheading">' . __('Select which performance options you would like to enable.', 'brisk') . '</p>';
+	echo '<p class="brisk-subheading">' . __('Select which briskormance options you would like to enable.', 'brisk') . '</p>';
 }
 
 //woocommerce options group callback

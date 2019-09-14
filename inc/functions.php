@@ -1316,10 +1316,10 @@ function brisk_script_manager_print_script($category, $group, $script, $type) {
 			echo "<td class='brisk-script-manager-script'>";
 
 				//Script Handle
-				echo "<span>" . $handle . "</span>";
+				echo "<span>" . htmlspecialchars($handle, ENT_COMPAT, 'utf-8') . "</span>";
 
 				//Script Path
-				echo "<a href='" . $data["scripts"]->registered[$script]->src . "' target='_blank'>" . str_replace(get_home_url(), '', $data["scripts"]->registered[$script]->src) . "</a>";
+				echo "<a href='" . htmlspecialchars($data["scripts"]->registered[$script]->src, ENT_COMPAT, 'utf-8') . "' target='_blank'>" . htmlspecialchars(str_replace(get_home_url(), '', $data["scripts"]->registered[$script]->src), ENT_NOQUOTES, 'utf-8') . "</a>";
 
 				echo "<div class='brisk-script-manager-controls' " . (!$statusDisabled ? "style='display: none;'" : "") . ">";
 
@@ -1723,12 +1723,12 @@ function brisk_script_manager_update() {
 
 function brisk_script_manager_update_option($old_value, $value, $option) {
 	add_action('wp_footer', function(){
-		echo "<script>
+		echo htmlspecialchars("<script>
         	var currentMessage = jQuery('.brisk-script-manager-message').html();
 			jQuery('.brisk-script-manager-message').html('<span style=\"color: #27ae60;\">" . __('Settings Saved!', 'brisk') . "</span>').delay(1000).animate({'opacity': 0}, 500, function () {
 			    jQuery(this).html(currentMessage);
 			}).animate({'opacity': 1}, 500);
-        </script>";    
+        </script>", ENT_COMPAT, 'utf-8');    
 	}, 9999);
 }
 
@@ -1870,7 +1870,8 @@ function brisk_dns_prefetch() {
 	global $brisk_advanced;
 	if(!empty($brisk_advanced['dns_prefetch']) && is_array($brisk_advanced['dns_prefetch'])) {
 		foreach($brisk_advanced['dns_prefetch'] as $url) {
-			echo "<link rel='dns-prefetch' href='" . $url . "'>" . "\n";
+			echo "<link rel='dns-prefetch' href='" . htmlspecialchars($url, ENT_COMPAT, 'utf-8') . "'>" . "\n";
+			
 		}
 	}
 }
@@ -1885,10 +1886,10 @@ function brisk_preconnect() {
 	if(!empty($brisk_advanced['preconnect']) && is_array($brisk_advanced['preconnect'])) {
 		foreach($brisk_advanced['preconnect'] as $line) {
 			if(is_array($line)) {
-				echo "<link rel='preconnect' href='" . $line['url'] . "' " . ($line['crossorigin'] ? "crossorigin" : "") . ">" . "\n";
+				echo "<link rel='preconnect' href='" . htmlspecialchars($line['url'], ENT_COMPAT, 'utf-8') . "' " . ($line['crossorigin'] ? "crossorigin" : "") . ">" . "\n";
 			}
 			else {
-				echo "<link rel='preconnect' href='" . $line . "' crossorigin>" . "\n";
+				echo "<link rel='preconnect' href='" . htmlspecialchars($line, ENT_COMPAT, 'utf-8') . "' crossorigin>" . "\n";
 			}
 			
 		}
