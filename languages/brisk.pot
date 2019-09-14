@@ -1,0 +1,878 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Brisk\n"
+"POT-Creation-Date: 2019-09-13 19:44-0700\n"
+"PO-Revision-Date: 2019-09-13 19:50-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: brisk.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/admin.php:9
+msgid "Brisk Settings"
+msgstr ""
+
+#: inc/admin.php:14 inc/settings.php:13
+msgid "Options"
+msgstr ""
+
+#: inc/admin.php:14
+msgid "CDN"
+msgstr ""
+
+#: inc/admin.php:16 inc/settings.php:15
+msgid "Google Analytics"
+msgstr ""
+
+#: inc/admin.php:17 inc/settings.php:16
+msgid "Advanced"
+msgstr ""
+
+#: inc/admin.php:17 inc/admin.php:54 inc/network.php:178 inc/network.php:214
+#: brisk.php:78
+msgid "Support"
+msgstr ""
+
+#: inc/admin.php:55 inc/network.php:215
+msgid ""
+"For plugin support and documentation, please visit <a href='https://"
+"http://pluginsbay.com/' title='brisk' target='_blank'>pluginsbay.com</a>."
+msgstr ""
+
+#: inc/admin.php:73 inc/network.php:222
+msgid "Click on tooltip icons to view full documentation."
+msgstr ""
+
+#: inc/functions.php:78
+#, php-format
+msgid "No feed available, please visit the <a href='%s'>homepage</a>!"
+msgstr ""
+
+#: inc/functions.php:122
+msgid "Sorry, you do not have permission to make REST API requests."
+msgstr ""
+
+#: inc/functions.php:225 inc/functions.php:318 inc/functions.php:323
+msgid "Comments are disabled."
+msgstr ""
+
+#: inc/functions.php:492 inc/functions.php:509
+msgid "Brisk Warning"
+msgstr ""
+
+#: inc/functions.php:493
+msgid ""
+"WP_POST_REVISIONS is already enabled somewhere else on your site. We suggest "
+"only enabling this feature in one place."
+msgstr ""
+
+#: inc/functions.php:510
+msgid ""
+"AUTOSAVE_INTERVAL is already enabled somewhere else on your site. We suggest "
+"only enabling this feature in one place."
+msgstr ""
+
+#: inc/functions.php:776 inc/functions.php:789 inc/functions.php:816
+msgid "This has been disabled."
+msgstr ""
+
+#: inc/functions.php:1069 inc/functions.php:1116
+#: inc/script_manager.php:108
+msgid "Script Manager"
+msgstr ""
+
+#: inc/functions.php:1089
+msgid "Close Brisk"
+msgstr ""
+
+#: inc/functions.php:1245
+msgid "Status"
+msgstr ""
+
+#: inc/functions.php:1276 inc/script_manager.php:186
+msgid "Script"
+msgstr ""
+
+#: inc/functions.php:1277 inc/script_manager.php:185
+msgid "Type"
+msgstr ""
+
+#: inc/functions.php:1278
+msgid "Size"
+msgstr ""
+
+#: inc/functions.php:1410 inc/script_manager_css.php:425
+msgid "ON"
+msgstr ""
+
+#: inc/functions.php:1411 inc/script_manager_css.php:439
+msgid "OFF"
+msgstr ""
+
+#: inc/functions.php:1430
+msgid "Disabled"
+msgstr ""
+
+#: inc/functions.php:1435
+msgid "Everywhere"
+msgstr ""
+
+#: inc/functions.php:1442 inc/functions.php:1483
+msgid "Current URL"
+msgstr ""
+
+#: inc/functions.php:1450 inc/functions.php:1455 inc/functions.php:1563
+msgid "Regex"
+msgstr ""
+
+#: inc/functions.php:1472
+msgid "Exceptions"
+msgstr ""
+
+#: inc/functions.php:1757
+msgid "Settings Saved!"
+msgstr ""
+
+#: inc/network.php:17
+msgid "Network Access"
+msgstr ""
+
+#: inc/network.php:25
+msgid "Network Default"
+msgstr ""
+
+#: inc/network.php:34 inc/settings.php:746
+msgid "Clean Uninstall"
+msgstr ""
+
+#: inc/network.php:42 inc/settings.php:741
+msgid ""
+"When enabled, this will cause all Brisk options data to be removed "
+"from your database when the plugin is uninstalled."
+msgstr ""
+
+#: inc/network.php:53
+msgid "Manage network access control and setup a network default site."
+msgstr ""
+
+#: inc/network.php:62
+msgid "Site Admins (Default)"
+msgstr ""
+
+#: inc/network.php:63
+msgid "Super Admins Only"
+msgstr ""
+
+#: inc/network.php:70
+msgid "Choose who has access to manage Brisk plugin settings."
+msgstr ""
+
+#: inc/network.php:86
+msgid "None"
+msgstr ""
+
+#: inc/network.php:97
+msgid "Choose a subsite that you want to pull default settings from."
+msgstr ""
+
+#: inc/network.php:146
+msgid "Default settings applied!"
+msgstr ""
+
+#: inc/network.php:150
+msgid "Select a site that is not already the Network Default."
+msgstr ""
+
+#: inc/network.php:155
+msgid "Network Default not set."
+msgstr ""
+
+#: inc/network.php:161
+msgid "Error: Blog Not Found."
+msgstr ""
+
+#: inc/network.php:168
+msgid "Options saved."
+msgstr ""
+
+#: inc/network.php:179
+msgid "Brisk Network Settings"
+msgstr ""
+
+#: inc/network.php:183
+msgid "Network"
+msgstr ""
+
+#: inc/network.php:199 inc/network.php:215
+msgid "Apply Default Settings"
+msgstr ""
+
+#: inc/network.php:200
+msgid "Choose a site to apply the settings from your network default site."
+msgstr ""
+
+#: inc/network.php:203
+msgid ""
+"Select a site from the dropdown and click to apply the settings from your "
+"network default (above)."
+msgstr ""
+
+#: inc/network.php:208
+msgid "Select a Site"
+msgstr ""
+
+#: inc/network.php:266
+msgid ""
+"Unlimited License needed for use in a multisite environment. Please contact "
+"support to upgrade."
+msgstr ""
+
+#: inc/script_manager.php:90 inc/script_manager.php:174
+msgid "Global View"
+msgstr ""
+
+#: inc/script_manager.php:91 inc/script_manager.php:263 brisk.php:155
+msgid "Settings"
+msgstr ""
+
+#: inc/script_manager.php:101
+msgid ""
+"Below you can disable/enable CSS and JS files on a per page/post basis, as "
+"well as by custom post types. We recommend testing this locally or on a "
+"staging site first, as you could break the appearance of your live site. If "
+"you aren't sure about a certain script, you can try clicking on it, as a lot "
+"of authors will mention their plugin or theme in the header of the source "
+"code."
+msgstr ""
+
+#: inc/script_manager.php:104
+msgid ""
+"If for some reason you run into trouble, you can always enable everything "
+"again to reset the settings. Make sure to check out the <a href='https://"
+"brisk.io/docs/' target='_blank' title='Brisk Knowledge "
+"Base'>Brisk knowledge base</a> for more information."
+msgstr ""
+
+#: inc/script_manager.php:116
+msgid "Manage scripts loading on the current page."
+msgstr ""
+
+#: inc/script_manager.php:158 inc/script_manager.php:322
+msgid "Save"
+msgstr ""
+
+#: inc/script_manager.php:175
+msgid ""
+"This is a visual representation of the Script Manager configuration across "
+"your entire site."
+msgstr ""
+
+#: inc/script_manager.php:187
+msgid "Setting"
+msgstr ""
+
+#: inc/script_manager.php:241
+msgid "You don't have any scripts disabled yet."
+msgstr ""
+
+#: inc/script_manager.php:264
+msgid "View and manage all of your Script Manager settings."
+msgstr ""
+
+#: inc/script_manager.php:277
+msgid "Hide Disclaimer"
+msgstr ""
+
+#: inc/script_manager.php:283
+msgid "Hide the disclaimer message box across all Script Manager views."
+msgstr ""
+
+#: inc/script_manager.php:289
+msgid "Display Archives"
+msgstr ""
+
+#: inc/script_manager.php:294
+msgid ""
+"Add WordPress archives to your Script Manager selection options. Archive "
+"posts will no longer be grouped with their post type."
+msgstr ""
+
+#: inc/script_manager.php:300 inc/script_manager.php:304
+msgid "Reset Script Manager"
+msgstr ""
+
+#: inc/script_manager.php:307
+msgid "Remove and reset all of your existing Script Manager settings."
+msgstr ""
+
+#: inc/script_manager.php:336
+msgid ""
+"Are you sure? This will remove and reset all of your existing Script Manager "
+"settings and cannot be undone!"
+msgstr ""
+
+#: inc/settings.php:14
+msgid "Disable Emojis"
+msgstr ""
+
+#: inc/settings.php:20
+msgid "Removes WordPress Emojis JavaScript file (wp-emoji-release.min.js)."
+msgstr ""
+
+#: inc/settings.php:27
+msgid "Disable Embeds"
+msgstr ""
+
+#: inc/settings.php:33
+msgid "Removes WordPress Embed JavaScript file (wp-embed.min.js)."
+msgstr ""
+
+#: inc/settings.php:40
+msgid "Remove Query Strings"
+msgstr ""
+
+#: inc/settings.php:46
+msgid "Remove query strings from static resources (CSS, JS)."
+msgstr ""
+
+#: inc/settings.php:53
+msgid "Disable XML-RPC"
+msgstr ""
+
+#: inc/settings.php:59
+msgid "Disables WordPress XML-RPC functionality."
+msgstr ""
+
+#: inc/settings.php:66
+msgid "Remove jQuery Migrate"
+msgstr ""
+
+#: inc/settings.php:72
+msgid "Removes jQuery Migrate JavaScript file (jquery-migrate.min.js)."
+msgstr ""
+
+#: inc/settings.php:79
+msgid "Hide WP Version"
+msgstr ""
+
+#: inc/settings.php:85
+msgid "Removes WordPress version meta tag."
+msgstr ""
+
+#: inc/settings.php:92
+msgid "Remove wlwmanifest Link"
+msgstr ""
+
+#: inc/settings.php:98
+msgid "Remove wlwmanifest (Windows Live Writer) link tag."
+msgstr ""
+
+#: inc/settings.php:105
+msgid "Remove RSD Link"
+msgstr ""
+
+#: inc/settings.php:111
+msgid "Remove RSD (Real Simple Discovery) link tag."
+msgstr ""
+
+#: inc/settings.php:118
+msgid "Remove Shortlink"
+msgstr ""
+
+#: inc/settings.php:124
+msgid "Remove Shortlink link tag."
+msgstr ""
+
+#: inc/settings.php:131
+msgid "Disable RSS Feeds"
+msgstr ""
+
+#: inc/settings.php:137
+msgid "Disable WordPress generated RSS feeds and 301 redirect URL to parent."
+msgstr ""
+
+#: inc/settings.php:144
+msgid "Remove RSS Feed Links"
+msgstr ""
+
+#: inc/settings.php:150
+msgid "Disable WordPress generated RSS feed link tags."
+msgstr ""
+
+#: inc/settings.php:157
+msgid "Disable Self Pingbacks"
+msgstr ""
+
+#: inc/settings.php:163
+msgid ""
+"Disable Self Pingbacks (generated when linking to an article on your own "
+"blog)."
+msgstr ""
+
+#: inc/settings.php:170
+msgid "Disable REST API"
+msgstr ""
+
+#: inc/settings.php:178
+msgid "Default (Enabled)"
+msgstr ""
+
+#: inc/settings.php:179
+msgid "Disable for Non-Admins"
+msgstr ""
+
+#: inc/settings.php:180
+msgid "Disable When Logged Out"
+msgstr ""
+
+#: inc/settings.php:182
+msgid ""
+"Disables REST API requests and displays an error message if the requester "
+"doesn't have permission."
+msgstr ""
+
+#: inc/settings.php:189
+msgid "Remove REST API Links"
+msgstr ""
+
+#: inc/settings.php:195
+msgid ""
+"Removes REST API link tag from the front end and the REST API header link "
+"from page requests."
+msgstr ""
+
+#: inc/settings.php:202
+msgid "Disable Dashicons"
+msgstr ""
+
+#: inc/settings.php:208
+msgid "Disables dashicons on the front end when not logged in."
+msgstr ""
+
+#: inc/settings.php:215
+msgid "Disable Google Maps"
+msgstr ""
+
+#: inc/settings.php:221
+msgid ""
+"Removes any instances of Google Maps being loaded across your entire site."
+msgstr ""
+
+#: inc/settings.php:228
+msgid "Disable Google Fonts"
+msgstr ""
+
+#: inc/settings.php:234
+msgid ""
+"Removes any instances of Google Fonts being loaded across your entire site."
+msgstr ""
+
+#: inc/settings.php:241
+msgid "Disable Password Strength Meter"
+msgstr ""
+
+#: inc/settings.php:247
+msgid ""
+"Removes WordPress and WooCommerce Password Strength Meter scripts from non "
+"essential pages."
+msgstr ""
+
+#: inc/settings.php:254
+msgid "Disable Comments"
+msgstr ""
+
+#: inc/settings.php:260
+msgid "Disables WordPress comments across your entire site."
+msgstr ""
+
+#: inc/settings.php:267
+msgid "Remove Comment URLs"
+msgstr ""
+
+#: inc/settings.php:273
+msgid ""
+"Removes the WordPress comment author link and website field from blog posts."
+msgstr ""
+
+#: inc/settings.php:280
+msgid "Disable Heartbeat"
+msgstr ""
+
+#: inc/settings.php:288 inc/settings.php:307 inc/settings.php:327
+#: inc/settings.php:355 inc/settings.php:558
+msgid "Default"
+msgstr ""
+
+#: inc/settings.php:289
+msgid "Disable Everywhere"
+msgstr ""
+
+#: inc/settings.php:290
+msgid "Only Allow When Editing Posts/Pages"
+msgstr ""
+
+#: inc/settings.php:292
+msgid ""
+"Disable WordPress Heartbeat everywhere or in certain areas (used for auto "
+"saving and revision tracking)."
+msgstr ""
+
+#: inc/settings.php:299
+msgid "Heartbeat Frequency"
+msgstr ""
+
+#: inc/settings.php:307 inc/settings.php:308 inc/settings.php:309
+#: inc/settings.php:310
+#, php-format
+msgid "%s Seconds"
+msgstr ""
+
+#: inc/settings.php:312
+msgid "Controls how often the WordPress Heartbeat API is allowed to run."
+msgstr ""
+
+#: inc/settings.php:319
+msgid "Limit Post Revisions"
+msgstr ""
+
+#: inc/settings.php:328
+msgid "Disable Post Revisions"
+msgstr ""
+
+#: inc/settings.php:340
+msgid ""
+"Limits the maximum amount of revisions that are allowed for posts and pages."
+msgstr ""
+
+#: inc/settings.php:347
+msgid "Autosave Interval"
+msgstr ""
+
+#: inc/settings.php:355
+msgid "1 Minute"
+msgstr ""
+
+#: inc/settings.php:356 inc/settings.php:357 inc/settings.php:358
+#: inc/settings.php:359
+#, php-format
+msgid "%s Minutes"
+msgstr ""
+
+#: inc/settings.php:361
+msgid ""
+"Controls how often WordPress will auto save posts and pages while editing."
+msgstr ""
+
+#: inc/settings.php:368
+msgid "Change Login URL"
+msgstr ""
+
+#: inc/settings.php:376
+msgid ""
+"When set, this will change your WordPress login URL (slug) to the provided "
+"string and will block wp-admin and wp-login endpoints from being directly "
+"accessed."
+msgstr ""
+
+#: inc/settings.php:386
+msgid "Disable Scripts"
+msgstr ""
+
+#: inc/settings.php:392
+msgid ""
+"Disables WooCommerce scripts and styles except on product, cart, and "
+"checkout pages."
+msgstr ""
+
+#: inc/settings.php:399
+msgid "Disable Cart Fragmentation"
+msgstr ""
+
+#: inc/settings.php:405
+msgid "Completely disables WooCommerce cart fragmentation script."
+msgstr ""
+
+#: inc/settings.php:412
+msgid "Disable Status Meta Box"
+msgstr ""
+
+#: inc/settings.php:418
+msgid "Disables WooCommerce status meta box from the WP Admin Dashboard."
+msgstr ""
+
+#: inc/settings.php:425
+msgid "Disable Widgets"
+msgstr ""
+
+#: inc/settings.php:431
+msgid "Disables all WooCommerce widgets."
+msgstr ""
+
+#: inc/settings.php:448
+msgid "Enable CDN Rewrite"
+msgstr ""
+
+#: inc/settings.php:455
+msgid ""
+"Enables rewriting of your site URLs with your CDN URLs which can be "
+"configured below."
+msgstr ""
+
+#: inc/settings.php:462
+msgid "CDN URL"
+msgstr ""
+
+#: inc/settings.php:471
+msgid ""
+"Enter your CDN URL without the trailing backslash. Example: https://cdn."
+"example.com"
+msgstr ""
+
+#: inc/settings.php:478
+msgid "Included Directories"
+msgstr ""
+
+#: inc/settings.php:487
+msgid ""
+"Enter any directories you would like to be included in CDN rewriting, "
+"separated by commas (,). Default: wp-content,wp-includes"
+msgstr ""
+
+#: inc/settings.php:494
+msgid "CDN Exclusions"
+msgstr ""
+
+#: inc/settings.php:503
+msgid ""
+"Enter any directories or file extensions you would like to be excluded from "
+"CDN rewriting, separated by commas (,). Default: .php"
+msgstr ""
+
+#: inc/settings.php:520
+msgid "Enable Local Analytics"
+msgstr ""
+
+#: inc/settings.php:527
+msgid "Enable syncing of the Google Analytics script to your own server."
+msgstr ""
+
+#: inc/settings.php:534
+msgid "Tracking ID"
+msgstr ""
+
+#: inc/settings.php:542
+msgid "Input your Google Analytics tracking ID."
+msgstr ""
+
+#: inc/settings.php:549
+msgid "Tracking Code Position"
+msgstr ""
+
+#: inc/settings.php:558
+msgid "Header"
+msgstr ""
+
+#: inc/settings.php:559
+msgid "Footer"
+msgstr ""
+
+#: inc/settings.php:561
+msgid ""
+"Load your analytics script in the header (default) or footer of your site. "
+"Default: Header"
+msgstr ""
+
+#: inc/settings.php:568
+msgid "Disable Display Features"
+msgstr ""
+
+#: inc/settings.php:575
+msgid "Disable remarketing and advertising which generates a 2nd HTTP request."
+msgstr ""
+
+#: inc/settings.php:582
+msgid "Anonymize IP"
+msgstr ""
+
+#: inc/settings.php:589
+msgid ""
+"Shorten visitor IP to comply with privacy restrictions in some countries."
+msgstr ""
+
+#: inc/settings.php:596
+msgid "Track Logged In Admins"
+msgstr ""
+
+#: inc/settings.php:603
+msgid "Include logged-in WordPress admins in your Google Analytics reports."
+msgstr ""
+
+#: inc/settings.php:610
+msgid "Adjusted Bounce Rate"
+msgstr ""
+
+#: inc/settings.php:618
+msgid ""
+"Set a timeout limit in seconds to better evaluate the quality of your "
+"traffic. (1-100)"
+msgstr ""
+
+#: inc/settings.php:625
+msgid "Use MonsterInsights"
+msgstr ""
+
+#: inc/settings.php:632
+msgid ""
+"Allows MonsterInsights to manage your Google Analaytics while still using "
+"the locally hosted analytics.js file generated by Brisk."
+msgstr ""
+
+#: inc/settings.php:653
+msgid ""
+"Enables the Brisk Script Manager, which gives you the ability to "
+"disable CSS and JS files on a page by page basis."
+msgstr ""
+
+#: inc/settings.php:660
+msgid "DNS Prefetch"
+msgstr ""
+
+#: inc/settings.php:667
+msgid ""
+"Resolve domain names before a user clicks. Format: //domain.tld (one per "
+"line)"
+msgstr ""
+
+#: inc/settings.php:674
+msgid "Preconnect"
+msgstr ""
+
+#: inc/settings.php:681
+msgid ""
+"Preconnect allows the browser to set up early connections before an HTTP "
+"request, eliminating roundtrip latency and saving time for users. Format: "
+"scheme://domain.tld"
+msgstr ""
+
+#: inc/settings.php:688
+msgid "Add Blank Favicon"
+msgstr ""
+
+#: inc/settings.php:695
+msgid ""
+"Adds a blank favicon to your WordPress header which will prevent a Missing "
+"Favicon or 404 error from showing up on certain website speed testing tools."
+msgstr ""
+
+#: inc/settings.php:702
+msgid "Add Header Code"
+msgstr ""
+
+#: inc/settings.php:710
+msgid ""
+"Code added here will be printed in the head section on every page of your "
+"website."
+msgstr ""
+
+#: inc/settings.php:717
+msgid "Add Footer Code"
+msgstr ""
+
+#: inc/settings.php:725
+msgid ""
+"Code added here will be printed above the closing body tag on every page of "
+"your website."
+msgstr ""
+
+#: inc/settings.php:750
+msgid "Accessibility Mode"
+msgstr ""
+
+#: inc/settings.php:758
+msgid ""
+"Disable the use of visual UI elements in the plugin settings such as "
+"checkbox toggles and hovering tooltips."
+msgstr ""
+
+#: inc/settings.php:867
+msgid "Select which briskormance options you would like to enable."
+msgstr ""
+
+#: inc/settings.php:872
+msgid "Disable specific elements of WooCommerce."
+msgstr ""
+
+#: inc/settings.php:877
+msgid ""
+"CDN options that allow you to rewrite your site URLs with your CDN URLs."
+msgstr ""
+
+#: inc/settings.php:882
+msgid "Optimization options for Google Analytics."
+msgstr ""
+
+#: inc/settings.php:887
+msgid "Extra options that pertain to Brisk plugin functionality."
+msgstr ""
+
+#: inc/settings.php:1038 inc/settings.php:1051
+msgid "Remove"
+msgstr ""
+
+#: inc/settings.php:1057
+msgid "Add New"
+msgstr ""
+
+#: inc/settings.php:1110
+msgid "View Documentation"
+msgstr ""
+
+#: brisk.php:126
+msgid "License is Activated"
+msgstr ""
+
+#: brisk.php:129
+msgid "Renew License"
+msgstr ""
+
+#: brisk.php:167
+msgid ""
+"Check out our <a href='https://pluginsbay.com/speed-up-wordpress/' "
+"title='WordPress Optimization Guide' target='_blank'>complete optimization "
+"guide</a> for more ways to speed up WordPress."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Brisk"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://pluginsbay.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin adds an assortment of briskormance and speed improvements to your "
+"WordPress installation."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "pluginsbay"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://pluginsbay.com"
+msgstr ""
